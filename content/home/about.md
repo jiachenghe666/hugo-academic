@@ -10,31 +10,35 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Labor Economics",
+    "Health Economics",
+    "Applied Microeconometrics",
+    "Applied Machine Learning"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Economics"
+  institution = "University of Kansas"
+  year = "2019 (expected)"
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Graduate Certificate in Applied Mathematics"
+  institution = "University of Kansas"
+  year = "2018 (expected)"
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "MA in Economics"
+  institution = "University of Kansas"
+  year = "2016"
+
+[[education.courses]]
+  course = "BA in Finance"
+  institution = "Guangdong University of Foreign Studies"
+  year = "2014"
  
 +++
 
-# Biography
+# Welcome!
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a PhD Candidate in Economics at University of Kansas. 
