@@ -13,7 +13,8 @@ weight = 5
     "Labor Economics",
     "Health Economics",
     "Applied Microeconometrics",
-    "Applied Machine Learning"
+    "Applied Machine Learning", 
+    "Natural Language Processing"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -42,3 +43,5 @@ weight = 5
 # Welcome!
 
 I am a PhD Candidate in Economics at University of Kansas. 
+
+You can download my {{% staticref "files/cv/CV.pdf" %}}CV{{% /staticref %}}.

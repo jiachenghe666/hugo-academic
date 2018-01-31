@@ -2,11 +2,11 @@
 # Recent Publications widget.
 # This widget displays recent publications from `content/publication/`.
 widget = "publications"
-active = true
+active = false
 date = 2016-04-20
 
 title = "Recent Publications"
-subtitle = ""
+subtitle = "Working Paper"
 
 # Order that this section will appear in.
 weight = 20
@@ -36,3 +36,6 @@ publication_type = "-1"
 exclude_selected = false
 +++
 
+### Working Paper
+
+### Work in Progress

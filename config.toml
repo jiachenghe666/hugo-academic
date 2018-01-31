@@ -60,8 +60,8 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jiacheng.he@ku.edu"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  address = "Snow 257, University of Kansas, Lawrence, Kansas, 66045, USA"
+  office_hours = "Tuesday & Thursday 12:00-13:30"
   phone = ""
   skype = ""
   telegram = ""
@@ -196,6 +196,9 @@ defaultContentLanguageInSubdir = false
     #   3 = MLA
     publication_format = 3
 
+  # Configuration of working_paper pages.
+  [params.working_paper]
+
   # Social/Academic Networking
   #
   # Icon pack "fa" includes the following social network icons:
@@ -220,19 +223,19 @@ defaultContentLanguageInSubdir = false
     link = "mailto:jiacheng.he@ku.deu"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "linkedin-square"
     icon_pack = "fa"
-    link = ""
-
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = ""
+    link = "https://www.linkedin.com/in/jiachenghe/"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/JiachengHe"
+
+  [[params.social]]
+    icon = "kaggle"
+    icon_pack = "ai"
+    link = "https://www.kaggle.com/dg040301"
 
 
 # Navigation Links
@@ -249,29 +252,24 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Research"
+  url = "#working_paper"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
+  name = "Teaching"
   url = "#posts"
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "CV"
+  url = "files/cv/CV.pdf"
   weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Taxonomies.
 [taxonomies]
