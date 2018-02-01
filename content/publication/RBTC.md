@@ -1,6 +1,6 @@
 +++
-title = "Monte Carlo Simulation on Causal Forest"
-date = 2018-01-29T22:33:50-06:00
+title = "Occupational Effects of Housing Boom and Routine Biased Technological Change"
+date = 2017-02-01T11:34:07-06:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -15,7 +15,7 @@ authors = ["Jiacheng He"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["4"]
+publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
 publication = ""
@@ -42,16 +42,15 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://github.com/JiachengHe/Project904/blob/master/paper/paper.pdf"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "https://github.com/JiachengHe/Project904/blob/master/Slide/slide.pdf"
+url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
-url_custom = [{name = "GitHub", url = "https://github.com/JiachengHe/Project904"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
