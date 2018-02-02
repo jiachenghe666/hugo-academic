@@ -1,0 +1,251 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{hanging}
+\usepackage{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Jiacheng He}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=0.8in,
+  right=0.8in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+\hspace{1cm}{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\hspace{0.8cm}
+\begin{minipage}{0.67\linewidth}
+	\begin{tabular}{ll}
+		Email: & \href{mailto:jiacheng.he@ku.edu}{\tt jiacheng.he@ku.edu} \\
+		Homepage: & \href{https://jiachenghe.github.io}{\tt jiachenghe.github.io} \\
+		LinkedIn: & \href{https://www.linkedin.com/in/jiachenghe}{\tt www.linkedin.com/in/jiachenghe} \\
+		GitHub: & \href{https://github.com/JiachengHe/}{\tt github.com/JiachengHe/} \\
+		Kaggle: & \href{https://www.kaggle.com/dg040301}{\tt www.kaggle.com/dg040301} \\
+		%    Homepage: & \href{http://tesswise.com}{\tt http://tesswise.com} \\
+	\end{tabular}
+
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+	\begin{tabular}{r}
+		\href{http://economics.ku.edu}{Department of Economics} \\
+		University of Kansas \\
+		Snow Hall 257 \\
+		Lawrence, KS, 66045\\
+	\end{tabular}	
+\end{minipage}
+
+%\section*{Research Interests}
+%\begin{itemize}
+%\item I am interested in causal inference, text analysis and experimental political science. Current projects including using Twitter to study collective action in the context of the Occupy movement and using regression discontinuity designs to study the effect of citizenship in Western Europe.
+%\end{itemize} 
+
+
+\vspace{8mm}
+
+
+\noindent \begin{tabular}{@{} p{3cm} p{10cm} r}
+	\Large{Education}    & \textbf{University of Kansas}, (GPA 4.0)\\
+	& \hspace{5mm}Ph.D. Candidate in Economics, & 2014-2019 (expected) \\
+	& \hspace{5mm}Graduate Certificate in Applied Mathematics, & 2014-2018 (expected) \\
+	& \hspace{5mm}M.A. in Economics, & 2014-2016 \\
+	& \\
+	& \textbf{Guangdong University of Foreign Studies} \\
+	& \hspace{5mm}B.A. in Finance, & 2010-2014 \\
+	& \\
+\end{tabular}
+
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} l}
+	\Large{Research}  & Labor Economics, Health Economics, Applied Microeconometrics, \\
+	\Large{Fileds} & Applied Machine Learning, Natural Language Processing \\
+	& \\
+\end{tabular}
+
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} p{0.75\linewidth}}
+	\Large{Research}   & \textbf{Working Papers} \\ 
+	\Large{Projects}   & "Does Age-Based Public Health Insurance Eligibility Save Medicaid Divorce? Regression Discontinuity Evidence at Age 65" [\href{https://jiachenghe.github.io/files/paper/Medicaid_Divorce.pdf}{\underline{PDF}}] [\href{}{\underline{slides}}] \vspace{3mm} \\	
+	
+	& "Monte Carlo Simulation on Causal Forest" [\href{https://jiachenghe.github.io/files/paper/Causal_Forest.pdf}{\underline{PDF}}] [\href{https://jiachenghe.github.io/files/slides/Causal_Forest_slides.pdf}{\underline{slides}}] [\href{https://github.com/JiachengHe/Project904}{\underline{GitHub}}] \vspace{3mm} \\ 
+	
+	& "Sentiment and Content Analysis Surrounding the Pulse Nightclub Shooting", with Mohammad Isyroqi Fathan, Sri Gayatri Sundar, Muhammad Saad Adnan, and Sierra Seacat [\href{https://jiachenghe.github.io/files/paper/Orlando_Shooting.pdf}{\underline{PDF}}] \vspace{3mm} \\
+	
+	& "Occupational Effects of Housing Boom and Routine Biased Technological Change" \\
+	& \\
+	
+	&\textbf{Work in Progress} \\ 
+	& "Does Health Insurance Share Cost Affect Health Care Utilization? Evidence from Asset Test Removal in Medicare Savings Programs" \\
+	& \\
+\end{tabular}
+
+\noindent \begin{tabular}{@{} p{3cm} p{10cm} r}
+	& \textbf{Kaggle Competition} \\
+	& \href{https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge}{Toxic Comment Classification Challenge} & 01/2018 - Present \\
+	& \href{https://www.kaggle.com/c/favorita-grocery-sales-forecasting}{Corporación Favorita Grocery Sales Forecasting} & 11/2017 - 01/2018 \\
+	& \href{https://www.kaggle.com/c/titanic}{Titanic: Machine Learning from Disaster} & 10/2017 - Present \\
+	& \\
+\end{tabular}
+
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} p{10cm} r}
+	\Large{Teaching}   & \textbf{Graduate Teaching Assistant at University of Kansas} \\
+	\Large{Experience} & \hspace{5mm}Principle of Microeconomics (ECON 142) & 2014F, 2015S, 2017F \\
+	& \hspace{5mm}Master-level Macroeconomics (ECON 701) & 2018S \\ 
+	& \hspace{5mm}PhD Microeconomic Theory 1 (ECON 800 \& 801) & 2015F, 2016F \\
+	& \hspace{5mm}PhD Macroeconomic Theory 1 (ECON 809 \& 810) & 2016S, 2017S, 2018S \\
+	& \hspace{5mm}PhD Macroeconomic Theory 2 (ECON 811) & 2016F \\
+	& \hspace{5mm} (F = fall semester, S = spring semester) \\
+	& \\
+\end{tabular}
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} p{11cm} r}
+	\Large{Honors and }    & \textbf{University of Kansas}\\
+	\Large{Awards}   & \hspace{5mm}Passed PhD oral comprehensive exam with honors & 12/2016 \\
+	& \hspace{5mm}Economics Department Research Fellowship & Summer 2016 \\
+	& \hspace{5mm}Economics Department Research Fellowship & Summer 2015 \\
+	& \\
+	& \textbf{Guangdong University of Foreign Studies} \\
+	& \hspace{5mm}Outstanding Bachelor Thesis Award & 05/2014 \\
+	& \hspace{5mm}Outstanding Student Scholarship & 2011-2013\\
+	& \hspace{5mm}Model Student of Academic Records Award & 2012-2013\\
+	& \hspace{5mm}Jetta Scholarship & 2011-2012 \\
+	& \hspace{5mm}Merit Student Award & 2011-2012 \\
+	& \\
+	& \textbf{China Society for Industrial and Applied Mathematics} \\
+	& \hspace{5mm}\multirow{2}{11cm}{Third Prize in Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)} & 10/2013 \\
+	& \\
+	& \\
+\end{tabular}
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} p{12cm} r}
+	\Large{Research}     & KU Economics Department Seminar & 03/2018  \\
+	\Large{Presentation} & Washington University in St. Louis 12th Economics Graduate Students' Conference & 10/2017 \\
+	& Missouri Valley Economic Association 54th Annual Meeting & 10/2017 \\ 
+	& KU Economics Department Seminar & 10/2017 \\
+	& \\
+\end{tabular}
+
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} l}
+	\Large{Computer}  & R, Python, Git, Linux, \LaTeX, SAS, Stata, MATLAB  \\
+	\Large{Skills}    &  \\
+	& \\
+\end{tabular}
+
+
+
+
+
+\noindent \begin{tabular}{@{} p{3cm} l}
+	\Large{Language}  & English (proficient), Cantonese (native), Mandarin (native)   \\
+\end{tabular}
+
+
+
+
+
+\vspace{1cm}
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    Click \href{https://jiachenghe.github.io/files/cv/CV.pdf}{\underline{here}} for the newest version.
+  \end{footnotesize}
+\end{center}
+
+\end{document}
