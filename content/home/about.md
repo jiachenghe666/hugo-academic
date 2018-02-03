@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+  	"Applied Microeconometrics",
     "Labor Economics",
-    "Health Economics",
-    "Applied Microeconometrics",
+    "Health Economics",   
     "Applied Machine Learning", 
     "Natural Language Processing"
   ]
