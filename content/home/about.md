@@ -42,9 +42,9 @@ weight = 5
 
 # Welcome!
 
-I am a PhD Candidate in Economics at University of Kansas. 
+I am an applied microeconomist. I use natural experiments and design-based microeconometric methods (e.g. regression discontinuity, difference in difference, event study, and synthetic control) to identify and estimate causal effects. I also use machine learning and natural language processing techniques to extract useful and interesting information from text data.
 
-I am an applied microeconomist. I exploit natural experiments and use design-based microeconometric methods (e.g. regression discontinuity, difference in difference, event study, and synthetic control) to identify and estimate causal effects. I also use machine learning and natural language processing techniques to extract useful and interesting information from text data.
+Recently I have been studying the role of asset tests in public health insurance programs, as well as the local labor market impact of routine biased technological change. 
 
 In my daily research activity, I am heavily addicted to RStudio, Git Bash, Ubuntu for Windows, Jupyter Notebook, and iced Americano.
 
