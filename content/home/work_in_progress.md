@@ -1,25 +1,23 @@
 +++
-# Recent Publications widget.
-# This widget displays recent publications from `content/publication/`.
-widget = "publications"
-active = false
+# Selected Publications widget.
+# This widget displays publications from `content/publication/` which have
+# `selected = true` in their `+++` front matter.
+widget = "publications_selected"
+active = true
 date = 2016-04-20
 
 title = "Work in Progress"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 40
-
-# Number of publications to list.
-count = 10
+weight = 60
 
 # List format.
 #   0 = Simple
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format = 2
+list_format = false
 
 # Filter by publication type.
 # -1: Any
@@ -31,7 +29,5 @@ list_format = 2
 #  5: Book
 #  6: Book chapter
 publication_type = "-1"
-
-# Exclude publications that are shown in the Selected Publications widget?
-exclude_selected = true
 +++
+
