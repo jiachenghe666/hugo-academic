@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "University of Kansas", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "linkedIn.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jiacheng.he@ku.edu"
   address = "University of Kansas, Snow 257, Lawrence, Kansas, 66045, USA"
   office_hours = "Monday 14:00-16:00, Thursday 12:00-13:00"
