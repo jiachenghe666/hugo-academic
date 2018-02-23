@@ -11,8 +11,8 @@ weight = 5
 [interests]
   interests = [
   	"Applied Microeconometrics",
-    "Labor Economics",
-    "Health Economics",   
+  	"Health Economics",
+    "Labor Economics",  
     "Applied Machine Learning", 
     "Natural Language Processing"
   ]
@@ -42,10 +42,12 @@ weight = 5
 
 # Welcome!
 
-I am an applied microeconomist. I use natural experiments and design-based microeconometric methods (e.g. regression discontinuity, difference in difference, event study, and synthetic control) to identify and estimate causal effects. I also use machine learning and natural language processing techniques to extract useful and interesting information from text data.
+I am an applied microeconomist with strong data science and causal inference skills. 
 
-Recently I have been studying the role of asset tests in public health insurance programs, as well as the local labor market impact of routine biased technological change. 
+I use natural experiments and design-based microeconometric methods (e.g. regression discontinuity, difference in difference, event study, and synthetic control) to identify and estimate causal effects. I also use machine learning and natural language processing techniques to extract useful and interesting information from text data.
 
-In my daily research activity, I am heavily addicted to RStudio, Git Bash, Ubuntu for Windows, Jupyter Notebook, and iced Americano.
+In my daily research activity, I am heavily addicted to RStudio, Jupyter Notebook, Git Bash, Ubuntu for Win10, and iced Americano.
 
-You can download my {{% staticref "files/cv/CV.pdf" %}}CV{{% /staticref %}}.
+Recently I have been studying the role of asset tests in public health insurance programs, as well as the local labor market impact of routine biased technological change. I am also a participant in [Kaggle](https://www.kaggle.com/dg040301) competitions.
+
+Here is my {{% staticref "files/cv/CV.pdf" %}}CV{{% /staticref %}}. You can find my projects in my [GitHub](https://github.com/JiachengHe).
