@@ -1,5 +1,5 @@
 +++
-title = "Did Removing Asset Test of Medicare Savings Program Reduce Seniors’ Difficulty to Access Health Care?"
+title = "Evaluating the Impact of Asset Test Elimination in Medicare Savings Program"
 date = 2018-02-13T11:34:07-06:00
 draft = false
 
@@ -29,7 +29,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -47,7 +47,7 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "files/slides/MSP_slides.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
