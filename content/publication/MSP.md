@@ -51,6 +51,7 @@ url_slides = "files/slides/MSP_slides.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "GitHub", url = "https://github.com/JiachengHe/MSP"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

@@ -14,7 +14,7 @@ weight = 5
   	"Health Economics",
     "Labor Economics",  
     "Applied Machine Learning", 
-    "Natural Language Processing"
+    "Text Mining"
   ]
 
 # List your qualifications (such as academic degrees).
